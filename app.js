@@ -2,10 +2,10 @@ const express = require('express');
 const mysql = require('mysql2');
 const app = express();
 const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'mylearningplatforms'
+    host: 'mysql-zahran.alwaysdata.net',
+    user: 'zahran',
+    password: 'BlackGhost12',
+    database: 'zahran_project'
 });
 connection.connect((err) => {
     if (err) {
